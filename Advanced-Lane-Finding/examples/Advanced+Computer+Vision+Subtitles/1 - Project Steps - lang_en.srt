@@ -1,0 +1,64 @@
+1
+00:00:00,146 --> 00:00:01,652
+>> Great job so far.
+
+2
+00:00:01,653 --> 00:00:05,484
+You now have all the tools you need to build the first stage of the project.
+
+3
+00:00:05,485 --> 00:00:07,721
+To get you started in the right direction,
+
+4
+00:00:07,721 --> 00:00:11,884
+we're going to show you step-by-step how to use these tools to map out the lane
+
+5
+00:00:11,884 --> 00:00:13,143
+on an image of the road.
+
+6
+00:00:13,143 --> 00:00:15,546
+>> Let's review what steps you'll take.
+
+7
+00:00:15,545 --> 00:00:18,326
+First, you need to calibrate the camera.
+
+8
+00:00:18,326 --> 00:00:21,314
+Second, correct for image distortion.
+
+9
+00:00:21,314 --> 00:00:24,707
+Third, implement a color and gradient threshold.
+
+10
+00:00:24,707 --> 00:00:28,619
+And fourth, warp the image using perspective transform.
+
+11
+00:00:28,620 --> 00:00:29,679
+Is that it?
+
+12
+00:00:29,679 --> 00:00:31,759
+>> Well, that gets us most of the way but
+
+13
+00:00:31,760 --> 00:00:35,450
+we still need to decide which pixels are lane line pixels.
+
+14
+00:00:35,450 --> 00:00:38,230
+And then determine the line shape and position.
+
+15
+00:00:38,229 --> 00:00:40,759
+So next we're going to go through an example of that so
+
+16
+00:00:40,759 --> 00:00:43,039
+you have a clear picture of how to approach the project.
+
